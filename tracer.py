@@ -47,6 +47,6 @@ class TracerHandler(SimpleHTTPRequestHandler):
         
 httpd = HTTPServer(("", PORT), TracerHandler)
 
-print "PicPay Tracer", PORT
+print "Tracer", PORT
 
 httpd.serve_forever()
